@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default Suite</th></tr>
+<tr><td><a href="#t0">Assesment</a></td><td class="num">17</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">318,799</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Assesment &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCase.TC1</td><td><a href="#m0">paymentConfirm</a></td><td rowspan="1">1695490330471</td><td rowspan="1">30312</td></tr><tr><th colspan="4">Assesment &#8212; passed</th></tr><tr class="passedeven"><td rowspan="17">TestCase.TC1</td><td><a href="#m1">addComment</a></td><td rowspan="1">1695490303899</td><td rowspan="1">128</td></tr><tr class="passedeven"><td><a href="#m2">addProductsToCart</a></td><td rowspan="1">1695490062612</td><td rowspan="1">81981</td></tr><tr class="passedeven"><td><a href="#m3">clickCartButton</a></td><td rowspan="1">1695490144625</td><td rowspan="1">23133</td></tr><tr class="passedeven"><td><a href="#m4">clickCartButtonAgain</a></td><td rowspan="1">1695490268226</td><td rowspan="1">12432</td></tr><tr class="passedeven"><td><a href="#m5">clickPlaceOrder</a></td><td rowspan="1">1695490304032</td><td rowspan="1">11836</td></tr><tr class="passedeven"><td><a href="#m6">clickProceedToCheckouttButton</a></td><td rowspan="1">1695490167831</td><td rowspan="1">10292</td></tr><tr class="passedeven"><td><a href="#m7">clickProceedToCheckouttButtonAgain</a></td><td rowspan="1">1695490280661</td><td rowspan="1">12847</td></tr><tr class="passedeven"><td><a href="#m8">clickRegisterButton</a></td><td rowspan="1">1695490178141</td><td rowspan="1">21566</td></tr><tr class="passedeven"><td><a href="#m9">doPayment</a></td><td rowspan="1">1695490326070</td><td rowspan="1">4383</td></tr><tr class="passedeven"><td><a href="#m10">enterCardDetails</a></td><td rowspan="1">1695490315878</td><td rowspan="1">10189</td></tr><tr class="passedeven"><td><a href="#m11">isItCartsScreen</a></td><td rowspan="1">1695490167780</td><td rowspan="1">45</td></tr><tr class="passedeven"><td><a href="#m12">isItHomeScreen</a></td><td rowspan="1">1695490062412</td><td rowspan="1">188</td></tr><tr class="passedeven"><td><a href="#m13">registrationConfirm</a></td><td rowspan="1">1695490228031</td><td rowspan="1">25119</td></tr><tr class="passedeven"><td><a href="#m14">userRegistration</a></td><td rowspan="1">1695490199711</td><td rowspan="1">28298</td></tr><tr class="passedeven"><td><a href="#m15">verfiyBillingAddress</a></td><td rowspan="1">1695490298732</td><td rowspan="1">5155</td></tr><tr class="passedeven"><td><a href="#m16">verfiyDeliveryAddress</a></td><td rowspan="1">1695490293516</td><td rowspan="1">5201</td></tr><tr class="passedeven"><td><a href="#m17">verfiyUserName</a></td><td rowspan="1">1695490253166</td><td rowspan="1">15052</td></tr></tbody>
+</table>
+<h2>Assesment</h2><h3 id="m0">TestCase.TC1#paymentConfirm</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #success_message
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.6&apos;, java.version: &apos;11.0.19&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [60ccb6e3-7349-4907-8f1d-70360000e67b, findElement {using=id, value=success_message}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:debuggerAddress: localhost:35175, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 16854, moz:profile: /var/folders/_d/dmtdj7lj7sl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: mac, platformVersion: 21.6.0, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 60ccb6e3-7349-4907-8f1d-70360000e67b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at Base.Operations.getText(Operations.java:50)
+	at Pages.Payment.verifyPaymentSuccessMsg(Payment.java:39)
+	at TestCase.TC1.paymentConfirm(TC1.java:227)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCase.TC1#addComment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestCase.TC1#addProductsToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestCase.TC1#clickCartButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestCase.TC1#clickCartButtonAgain</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestCase.TC1#clickPlaceOrder</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestCase.TC1#clickProceedToCheckouttButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestCase.TC1#clickProceedToCheckouttButtonAgain</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestCase.TC1#clickRegisterButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestCase.TC1#doPayment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestCase.TC1#enterCardDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestCase.TC1#isItCartsScreen</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestCase.TC1#isItHomeScreen</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestCase.TC1#registrationConfirm</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestCase.TC1#userRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestCase.TC1#verfiyBillingAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">TestCase.TC1#verfiyDeliveryAddress</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">TestCase.TC1#verfiyUserName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

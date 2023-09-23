@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-23T23:27:23 BDT" name="Default Suite" finished-at="2023-09-23T23:32:42 BDT" duration-ms="318799">
+    <groups>
+    </groups>
+    <test started-at="2023-09-23T23:27:23 BDT" name="Assesment" finished-at="2023-09-23T23:32:42 BDT" duration-ms="318799">
+      <class name="TestCase.TC1">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:27:24 BDT" name="setupDriver" finished-at="2023-09-23T23:27:42 BDT" duration-ms="18280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="isItHomeScreen()[pri:1, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:27:42 BDT" name="isItHomeScreen" finished-at="2023-09-23T23:27:42 BDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isItHomeScreen -->
+        <test-method signature="addProductsToCart()[pri:2, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:27:42 BDT" name="addProductsToCart" finished-at="2023-09-23T23:29:04 BDT" duration-ms="81981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductsToCart -->
+        <test-method signature="clickCartButton()[pri:3, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:29:04 BDT" name="clickCartButton" finished-at="2023-09-23T23:29:27 BDT" duration-ms="23133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCartButton -->
+        <test-method signature="isItCartsScreen()[pri:4, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:29:27 BDT" name="isItCartsScreen" finished-at="2023-09-23T23:29:27 BDT" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isItCartsScreen -->
+        <test-method signature="clickProceedToCheckouttButton()[pri:5, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:29:27 BDT" name="clickProceedToCheckouttButton" finished-at="2023-09-23T23:29:38 BDT" duration-ms="10292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedToCheckouttButton -->
+        <test-method signature="clickRegisterButton()[pri:6, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:29:38 BDT" name="clickRegisterButton" finished-at="2023-09-23T23:29:59 BDT" duration-ms="21566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRegisterButton -->
+        <test-method signature="userRegistration()[pri:7, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:29:59 BDT" name="userRegistration" finished-at="2023-09-23T23:30:28 BDT" duration-ms="28298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method signature="registrationConfirm()[pri:8, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:30:28 BDT" name="registrationConfirm" finished-at="2023-09-23T23:30:53 BDT" duration-ms="25119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirm -->
+        <test-method signature="verfiyUserName()[pri:9, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:30:53 BDT" name="verfiyUserName" finished-at="2023-09-23T23:31:08 BDT" duration-ms="15052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyUserName -->
+        <test-method signature="clickCartButtonAgain()[pri:10, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:31:08 BDT" name="clickCartButtonAgain" finished-at="2023-09-23T23:31:20 BDT" duration-ms="12432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCartButtonAgain -->
+        <test-method signature="clickProceedToCheckouttButtonAgain()[pri:11, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:31:20 BDT" name="clickProceedToCheckouttButtonAgain" finished-at="2023-09-23T23:31:33 BDT" duration-ms="12847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedToCheckouttButtonAgain -->
+        <test-method signature="verfiyDeliveryAddress()[pri:12, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:31:33 BDT" name="verfiyDeliveryAddress" finished-at="2023-09-23T23:31:38 BDT" duration-ms="5201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyDeliveryAddress -->
+        <test-method signature="verfiyBillingAddress()[pri:13, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:31:38 BDT" name="verfiyBillingAddress" finished-at="2023-09-23T23:31:43 BDT" duration-ms="5155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyBillingAddress -->
+        <test-method signature="addComment()[pri:14, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:31:43 BDT" name="addComment" finished-at="2023-09-23T23:31:44 BDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComment -->
+        <test-method signature="clickPlaceOrder()[pri:15, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:31:44 BDT" name="clickPlaceOrder" finished-at="2023-09-23T23:31:55 BDT" duration-ms="11836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPlaceOrder -->
+        <test-method signature="enterCardDetails()[pri:16, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:31:55 BDT" name="enterCardDetails" finished-at="2023-09-23T23:32:06 BDT" duration-ms="10189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCardDetails -->
+        <test-method signature="doPayment()[pri:17, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:32:06 BDT" name="doPayment" finished-at="2023-09-23T23:32:10 BDT" duration-ms="4383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPayment -->
+        <test-method signature="paymentConfirm()[pri:18, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:32:10 BDT" name="paymentConfirm" finished-at="2023-09-23T23:32:40 BDT" duration-ms="30312" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #success_message
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [60ccb6e3-7349-4907-8f1d-70360000e67b, findElement {using=id, value=success_message}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:debuggerAddress: localhost:35175, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 16854, moz:profile: /var/folders/_d/dmtdj7lj7sl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: mac, platformVersion: 21.6.0, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 60ccb6e3-7349-4907-8f1d-70360000e67b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #success_message
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.0', revision: '249f2a7d1b*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '11.0.19'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [60ccb6e3-7349-4907-8f1d-70360000e67b, findElement {using=id, value=success_message}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:debuggerAddress: localhost:35175, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 16854, moz:profile: /var/folders/_d/dmtdj7lj7sl..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: mac, platformVersion: 21.6.0, proxy: Proxy(), se:cdp: ws://localhost:35175/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 60ccb6e3-7349-4907-8f1d-70360000e67b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at Base.Operations.getText(Operations.java:50)
+at Pages.Payment.verifyPaymentSuccessMsg(Payment.java:39)
+at TestCase.TC1.paymentConfirm(TC1.java:227)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentConfirm -->
+        <test-method is-config="true" signature="testCaseTearDown()[pri:0, instance:TestCase.TC1@649bec2e]" started-at="2023-09-23T23:32:40 BDT" name="testCaseTearDown" finished-at="2023-09-23T23:32:42 BDT" duration-ms="1898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTearDown -->
+      </class> <!-- TestCase.TC1 -->
+    </test> <!-- Assesment -->
+  </suite> <!-- Default Suite -->
+</testng-results>
